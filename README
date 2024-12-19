@@ -1,0 +1,76 @@
+Asistente Virtual en Python
+
+Descripción:
+Este proyecto implementa un asistente virtual llamada Sabina que interactúa con el usuario mediante comandos
+de voz en español(Se puede cambiar a ingles támbien)
+Sabina pnuede realizar diversas tareas como:
+abrir aplicaciones web
+buscar información
+contar chistes
+y mucho más.
+
+Requisitos del Sistema:
+Este programa solo funciona con python 3.10
+bibliotecas de Python:
+pyttsx3
+pyjokes
+webbrowser (incluido con Python)
+datetime (incluido con Python)
+pywhatkit
+wikipedia
+speech_recognition
+Instalación
+
+Como ejecutar el programa:
+Clona o descarga este repositorio
+Ejecuta el archivo Python desde la cmd con el siguiente comando:
+python asistente_virtual.py
+o ejecuta el código desde un IDE al darle run
+
+
+Características Principales:
+Saludo inicial: Saluda según la hora del día.
+Reconocimiento de voz: Convierte comandos de voz en texto.
+
+Uso:
+Estos son los comandos de voz que puede realizar el asistente vitual(se pueden agregar tantos como se requieran):
+Abrir YouTube: Abre el sitio web de YouTube.
+Abrir el navegador: Inicia el navegador en Google.
+Informar la hora: Informa la hora actual.
+Informar el día: Menciona el día de la semana.
+Buscar en Wikipedia de: Busca información en Wikipedia.
+Buscar en Internet: Realiza una búsqueda en Google.
+Reproducir en YouTube: Busca y reproduce un video en YouTube.
+Broma : Cuenta una broma en español.
+Adios: Finaliza el prograama con una despedida.
+
+
+Ejemplos:
+"Abrir YouTube"
+"¿Qué hora es?"
+"Busca en Wikipedia inteligencia artificial"
+"Reproduce en YouTube música relajante"
+"Dime una broma"
+Para salir, di "Adiós".
+Configuración de Idiomas y Voz
+El asistente utiliza el motor de texto a voz pyttsx3. Puedes configurar las voces disponibles en tu sistema operativo modificando las variables id1 o id2 para cambiar entre español y otros idiomas.
+
+notas:
+algunos errores comunes que son manejo de errores
+"Ups no entendí": Si el asistente no puede reconocer la entrada, intenta hablar más claro o revisa tu micrófono.
+"Uuppps no hay servicio": Ocurre si no tienes conexión a internet.
+Problemas con la biblioteca speech_recognition: Asegúrate de que tu micrófono esté correctamente configurado y funcionando.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
